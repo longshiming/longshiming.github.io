@@ -176,7 +176,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-09-16 22:05:15" itemprop="dateModified" datetime="2020-09-16T22:05:15+08:00">2020-09-16</time>
+                <time title="Modified: 2020-09-16 22:47:55" itemprop="dateModified" datetime="2020-09-16T22:47:55+08:00">2020-09-16</time>
               </span>
 
           
@@ -219,9 +219,14 @@
 </ol>
 </blockquote>
 <h3 id="4、总结"><a href="#4、总结" class="headerlink" title="4、总结"></a>4、总结</h3><ul>
-<li>HTTP 明文传输，不对数据进行加密安全性较差，HTTPS (HTTP + SSL / TLS)的数据传输过程是加密的，安全性较好；* 使用HTTPS协议需要申请CA证书；</li>
-<li>由于HTTPS是构建在SSL/TLS之上的HTTP协议，所以无论是响应时间还是耗电量上都有大幅度的上升；</li>
-<li>HTTPS 的安全是有范围的，在黑客攻击、服务器劫持等情况下几乎起不到作用。</li>
+<li><p>HTTP 明文传输，不对数据进行加密安全性较差，HTTPS (HTTP + SSL / TLS)的数据传输过程是加密的，安全性较好；</p>
+</li>
+<li><p>使用HTTPS协议需要申请CA证书；</p>
+</li>
+<li><p>由于HTTPS是构建在SSL/TLS之上的HTTP协议，所以无论是响应时间还是耗电量上都有大幅度的上升；</p>
+</li>
+<li><p>HTTPS 的安全是有范围的，在黑客攻击、服务器劫持等情况下几乎起不到作用。</p>
+</li>
 </ul>
 
       
@@ -516,7 +521,7 @@
 <p>$ npm install -g hexo</p>
 </blockquote>
 <blockquote>
-<p>配置config.yml配置文件，关联hexo和github<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;">&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;</a>:longshiming/longshiming.github.io.git //这里跟据自己的具体情况配置，给出的是我自己的地址<br>  branch: master</p>
+<p>配置config.yml配置文件，关联hexo和github<br>deploy:<br>  type: git<br>  repo: <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;</a>:longshiming/longshiming.github.io.git //这里跟据自己的具体情况配置，给出的是我自己的地址<br>  branch: master</p>
 </blockquote>
 <h2 id="部署Hexo"><a href="#部署Hexo" class="headerlink" title="部署Hexo"></a>部署Hexo</h2><blockquote>
 <p>$ hexo init blog<br>Hexo随后会自动在目标文件夹建立网站所需要的所有文件<br>现在我们已经搭建起本地hexo博客了，执行一下命令（在blog文件夹所在目录下），然后到浏览器输入locallhost:4000看效果。<br>$ hexo g<br>$ hexo s</p>
